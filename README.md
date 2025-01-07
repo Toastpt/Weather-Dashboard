@@ -2,15 +2,16 @@ Building a weather data collection system using AWS S3 and OpenWeather API
 
 # Real-Time Weather Data Hub
 
-## Project Overview
-This project is a Weather Data Collection System demonstrating DevOps principles such as:
+## Overview
 
-- External API Integration (OpenWeather API)
-- Cloud Storage (AWS S3)
-- Infrastructure as Code (Iac)
-- Version Control (Git)
-- Python Development
-- Error Handling/Debugging
+The Real-Time Weather Data Hub is a system designed to collect and manage weather data, leveraging cloud technologies and external APIs. It showcases core DevOps practices, including:
+
+Integration with external APIs (OpenWeather API)
+-Cloud-based storage solutions (AWS S3)
+-Implementation of Infrastructure as Code (IaC)
+-Effective version control using Git
+-Python development methodologies
+-Comprehensive error handling and debugging techniques
 
 ## Key Features
 - Fetches real-time weather data for multiple cities using OpenWeather API
@@ -18,7 +19,7 @@ This project is a Weather Data Collection System demonstrating DevOps principles
 - Securely saves weather data in AWS S3 using timestamps for unique identification and historical tracking
 - Dyanamically supports multiple cities with tracking data
 
-## Technical Architecture
+## Technical Architecture:
 - **Language:** Python 3.x
 - **Cloud Provider:** AWS (S3)
 - **External API:** OpenWeather API
