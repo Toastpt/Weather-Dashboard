@@ -45,7 +45,6 @@ Utilized VScode for efficiency
 
 1. Install dependencies:
 pip install -r requirements.txt
-<img width="1154" alt="Screenshot 2024-06-26 at 3 04 44 PM" src="https://github.com/user-attachments/assets/7995df22-d163-4f20-957e-af14fdf50110" />
 
 2. Configure environment variables (.env):
 OPENWEATHER_API_KEY=your_api_key
@@ -56,8 +55,7 @@ aws configure
 
 5. Run the application:
 python3 src/weather_dashboard.py
-<img width="380" alt="Screenshot 2025-01-07 at 5 58 56 PM" src="https://github.com/user-attachments/assets/a44d1768-622d-49c8-8818-d6790429cb00" />
-![Screenshot 2025-01-07 at 6 01 08 PM](https://github.com/user-attachments/assets/63f66cc5-7af2-4f68-8cd0-a03f2bc1c3fe)
+
 
 What I Learned
 
