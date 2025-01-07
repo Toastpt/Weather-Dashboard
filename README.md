@@ -10,15 +10,13 @@ This project is a Weather Data Collection System demonstrating DevOps principles
 - Infrastructure as Code (Iac)
 - Version Control (Git)
 - Python Development
-- Error Handling
-- Environment Management
+- Error Handling/Debugging
 
-## Features
-- Fetches real-time weather data for multiple cities
+## Key Features
+- Fetches real-time weather data for multiple cities using OpenWeather API
 - Displays temperature (°F), humidity, and weather conditions
-- Automatically stores weather data in AWS S3
-- Supports multiple cities tracking
-- Timestamps all data for historical tracking
+- Securely saves weather data in AWS S3 using timestamps for unique identification and historical tracking
+- Dyanamically supports multiple cities with tracking data
 
 ## Technical Architecture
 - **Language:** Python 3.x
@@ -42,6 +40,8 @@ weather-dashboard/
   requirements.txt
 
 ## Setup Instructions
+OpenWeather API Key: Create a free account at OpenWeather to get your API key.
+
 Utilized VScode for efficiency
 
 1. Install dependencies:
@@ -51,24 +51,19 @@ pip install -r requirements.txt
 OPENWEATHER_API_KEY=your_api_key
 AWS_BUCKET_NAME=your_bucket_name
 
-3.Configure AWS credentials:
-aws configure
+3.Configure AWS credentials:  ## Must have AWS Key and Secret Key
+aws configure 
 
 5. Run the application:
 python3 src/weather_dashboard.py
 
 
-What I Learned
+What I Learned:
 
-AWS S3 bucket creation and management
-Environment variable management for secure API keys
-Python best practices for API integration
-Git workflow for project development
-Error handling in distributed systems
-Cloud resource management
+This project demonstrates how to integrate multiple technologies to create a robust and scalable Weather Data Collection System. By leveraging APIs, cloud storage, and Python’s simplicity, you can efficiently collect and store data for further analysis or display.
 
-Future Enhancements
-
+Future Enhancements:
+Alerts for extreme weather conditions
 Implement data visualization
 Create automated testing
 Set up CI/CD pipeline
