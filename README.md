@@ -1,6 +1,6 @@
 Building a weather data collection system using AWS S3 and OpenWeather API
 
-# Weather Data Collection System
+# Real-Time Weather Data Hub
 
 ## Project Overview
 This project is a Weather Data Collection System demonstrating DevOps principles such as:
