@@ -3,7 +3,8 @@ Building a weather data collection system using AWS S3 and OpenWeather API
 # Weather Data Collection System
 
 ## Project Overview
-This project is a Weather Data Collection System that demonstrates core DevOps principles by combining:
+This project is a Weather Data Collection System demonstrating DevOps principles such as:
+
 - External API Integration (OpenWeather API)
 - Cloud Storage (AWS S3)
 - Infrastructure as Code (Iac)
@@ -68,8 +69,6 @@ Cloud resource management
 
 Future Enhancements
 
-Add weather forecasting
 Implement data visualization
-Add more cities
 Create automated testing
 Set up CI/CD pipeline
