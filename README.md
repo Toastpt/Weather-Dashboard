@@ -65,6 +65,5 @@ This project demonstrates how to integrate multiple technologies to create a rob
 
 Future Enhancements:
 Alerts for extreme weather conditions
-Implement data visualization
-Create automated testing
+Implement data visualization with Streamlit
 Set up CI/CD pipeline
